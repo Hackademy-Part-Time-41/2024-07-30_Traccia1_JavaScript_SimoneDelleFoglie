@@ -59,6 +59,8 @@ function createCard(card) {
     date.textContent= 'Creato in data: '+ card.createdAt;
     separator.appendChild(date);
     
+
+
     return container;
     
 }
